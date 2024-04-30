@@ -1,0 +1,621 @@
+body {
+    margin: 0;
+    background-color: #f2f3f5;
+    color: #1c1e21;
+    overflow-x: hidden;
+    height: 900px;
+}
+
+@media (max-width: 1085px) {
+    .main-container {
+        padding-top: 20px;
+    }
+}
+main {
+    display: flex;
+    padding-top: 72px;
+    padding-bottom: 112px;
+    height: 536px;
+}
+@media (max-width: 1085px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+
+        height: 612px;
+        margin: 0 40px;
+
+        padding-top: 20px;
+    }
+}
+.main-left-side {
+    width: 548px;
+    height: 267px;
+    margin-left: 150.5px;
+    padding-right: 32px;
+    padding-top: 20px;
+}
+
+@media (max-width: 1085px) {
+    .main-left-side {
+        width: 400px;
+        height: 138px;
+        align-items: center;
+
+        margin: 0 auto;
+        display: flex;
+        padding-top: 20px;
+        justify-content: center;
+        flex-direction: column;
+
+        padding-right: 0;
+        padding-top: 0;
+    }
+}
+.left-header {
+    padding: 112px 0 16px;
+}
+@media (max-width: 1085px) {
+    .left-header {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+}
+.facebook-logo {
+    height: 106px;
+    margin: -28px;
+}
+.left-text {
+    font-size: 28px;
+    font-family: Arial;
+    line-height: 32px;
+    width: 500px;
+}
+@media (max-width: 1085px) {
+    .left-text {
+        font-size: 23px;
+        font-family: Arial;
+        line-height: 28px;
+        width: auto;
+        text-align: center;
+        display: flex;
+    }
+}
+@media (min-width: 1086px) {
+    .left-text {
+        font-size: 28px;
+        font-family: Arial;
+        line-height: 32px;
+        width: 500px;
+    }
+}
+.right-side-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 316px;
+    padding: 10px 0 24px 0px;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.main-right-side {
+    width: 396px;
+    height: 496px;
+    margin-right: 150.5px;
+    padding-top: 20px;
+}
+@media (max-width: 1085px) {
+    .main-right-side {
+        width: 396px;
+        height: 496px;
+        margin-right: 0;
+        padding-top: 0;
+    }
+}
+.input {
+    width: 330px;
+    height: 22px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    border-radius: 6px;
+    line-height: 16px;
+}
+.input-container {
+    padding: 6px 0;
+}
+.log-in-button {
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    margin-top: 6px;
+    color: white;
+    font-family: Arial;
+    font-weight: 700;
+    transition: opacity 0.1s;
+}
+.log-in-button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.right-side-top {
+    height: 132.08px;
+}
+.forgot-password {
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 16px;
+    font-family: Arial;
+    height: 18.75px;
+    align-items: center;
+    display: flex;
+}
+.forgot-password-link {
+    color: #0866ff;
+    text-decoration: none;
+}
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
+.grey-line {
+    height: 1px;
+    width: 364px;
+    background-color: #dadde1;
+    margin: 20px 16px;
+}
+input:focus {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid #0866ff;
+}
+.input::placeholder {
+    color: #9c9c9c;
+}
+.input:focus::placeholder {
+    color: #c0c1c2;
+}
+.create-button-container {
+    padding-top: 6px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.create-button {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial;
+    padding: 0 16px;
+    height: 48px;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+@media (max-width: 1085px) {
+    .create-button {
+        pointer-events: none;
+    }
+}
+.create-button:hover {
+    background-color: #36a420;
+}
+.right-side-footer {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 29px;
+    width: 396px;
+    text-align: center;
+}
+.create-page-link {
+    text-decoration: none;
+    color: #1c1e21;
+}
+.create-page-link:hover {
+    text-decoration: underline;
+}
+.bold-text {
+    font-weight: 700;
+}
+.footer {
+    height: 157.3px;
+    padding-top: 20px;
+    margin: 0;
+    background-color: #fff;
+}
+@media (max-width: 1085px) {
+    .footer {
+        height: 250.3px;
+        padding-top: 20px;
+        font-size: 12px;
+        width: auto;
+        margin: 0;
+        background-color: #fff;
+    }
+}
+.footer-main-container {
+    width: 980px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #737373;
+    font-family: Arial;
+    line-height: 1.6;
+}
+@media (max-width: 1085px) {
+    .footer-main-container {
+        width: auto;
+        /* display: flex; */
+        margin: 0 40px;
+        font-family: Arial;
+        line-height: 1.6;
+    }
+}
+.footer-main-header {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+@media (max-width: 1085px) {
+    .footer-main-header {
+        display: flex;
+        align-items: center;
+        padding-top: 8px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+.grey-line-2 {
+    width: auto;
+    background-color: #dadde1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.footer-text {
+    padding-left: 10px;
+}
+.footer-text-2 {
+    padding-left: 20px;
+}
+.footer-main-container-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-main-footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+.sign-up-text {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #1c1e21;
+    display: flex;
+    justify-content: space-between;
+}
+.x-image {
+    align-items: flex-end;
+    display: flex;
+    object-fit: contain;
+    justify-content: flex-end;
+}
+.quick-easy-text {
+    color: #606770;
+    line-height: 24px;
+    font-size: 15px;
+    display: flex;
+    font-weight: 400;
+}
+.create-button-header {
+    padding: 10px 16px;
+}
+.create-button-main-1 {
+    height: 50px;
+    width: 401px;
+}
+.create-button-active {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 84px;
+    background-color: #fff;
+    width: 432px;
+    height: 535px;
+    left: 425px;
+    font-family: Arial;
+    opacity: 0;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+}
+
+.create-button-main {
+    padding: 16px;
+}
+.grey-line-3 {
+    width: 432px;
+    height: 1px;
+    color: #dadde1;
+    background-color: #dadde1;
+}
+.sign-up-input {
+    font-size: 15px;
+    color: #8d949e;
+    padding: 11px;
+    width: 170px;
+    height: 16px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    background-color: #f5f6f7;
+}
+.sign-up-input-first-name {
+    font-size: 15px;
+    color: #8d949e;
+    padding: 11px;
+    width: 170px;
+    height: 14px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    background-color: #f5f6f7;
+    margin-bottom: 10px;
+    margin-right: 8px;
+}
+.sign-up-input-last-name {
+    font-size: 15px;
+    color: #8d949e;
+    padding: 11px;
+    width: 170px;
+    height: 14px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    background-color: #f5f6f7;
+    margin-bottom: 10px;
+}
+.sign-up-input-mobile-number {
+    font-size: 15px;
+    color: #8d949e;
+    padding: 11px;
+    width: 377px;
+    height: 14px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    background-color: #f5f6f7;
+    margin-bottom: 10px;
+}
+.sign-up-input-new-password {
+    font-size: 15px;
+    color: #8d949e;
+    padding: 11px;
+    width: 377px;
+    height: 14px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    background-color: #f5f6f7;
+    margin-bottom: 10px;
+}
+.birthday-container-1 {
+    font-size: 12px;
+    font-family: Arial;
+    display: flex;
+    margin-top: 2px;
+    height: 20px;
+    color: #606770;
+    align-items: center;
+}
+.question-mark-container {
+    width: 14px;
+    height: 12px;
+    margin-left: 4px;
+}
+.first-select {
+    width: 125px;
+    height: 36px;
+    padding-left: 8px;
+    border-radius: 4px;
+    line-height: 36px;
+    background-color: #fff;
+    padding-right: 20px;
+    font-size: 15px;
+    color: #1c1e21;
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+}
+.second-select {
+    width: 125px;
+    height: 36px;
+    padding-left: 8px;
+    border-radius: 4px;
+    line-height: 36px;
+    background-color: #fff;
+    padding-right: 20px;
+    font-size: 15px;
+    color: #1c1e21;
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+}
+.third-select {
+    width: 125px;
+    height: 36px;
+    padding-left: 8px;
+    border-radius: 4px;
+    line-height: 36px;
+    background-color: #fff;
+    padding-right: 20px;
+    font-size: 15px;
+    color: #1c1e21;
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+}
+.question-mark-image {
+    height: 12px;
+    background-color: lightgrey;
+    border-radius: 6px;
+    margin-left: 4px;
+}
+.drop-down-image {
+    position: absolute;
+    left: 120px;
+    /* padding-right: 20px; */
+    width: 14px;
+    margin-top: 13px;
+    height: 14px;
+}
+.drop-down-image-2 {
+    position: absolute;
+    left: 255px;
+    /* padding-right: 20px; */
+    width: 14px;
+    margin-top: 13px;
+    height: 14px;
+}
+.drop-down-image-3 {
+    position: absolute;
+    left: 390px;
+    /* padding-right: 20px; */
+    width: 14px;
+    margin-top: 13px;
+    height: 14px;
+}
+.first-second-third-select-container {
+    display: flex;
+}
+.first-select-container {
+    width: 125px;
+}
+.second-select-container {
+    width: 125px;
+    margin-left: 12px;
+}
+.third-select-container {
+    width: 125px;
+    margin-left: 12px;
+}
+.gender-button-container {
+    margin-top: 10px;
+}
+.gender-button-container-text {
+    font-size: 11px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    color: #777;
+    height: 29.77px;
+    line-height: 1.34;
+    text-align: left;
+    font-weight: 400;
+}
+.learn-more-text {
+    color: #385898;
+}
+.gender-button-container-top {
+    font-size: 12px;
+    font-family: Arial;
+    display: flex;
+    margin-top: 2px;
+    height: 20px;
+    color: #606770;
+    align-items: center;
+}
+.first-radio-container,
+.second-radio-container,
+.third-radio-container {
+    width: 128.29px;
+    height: 36px;
+    border: 1px solid #ccd0d5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 8px 6px 6px; */
+    font-size: 15px;
+    border-radius: 5px;
+}
+.radio-container {
+    display: flex;
+}
+.first-radio-container {
+    margin-right: 12px;
+}
+.second-radio-container {
+    width: 110.77px;
+    margin-right: 12px;
+}
+.third-radio-container {
+    width: 131.94px;
+}
+.female-text,
+.male-text,
+.custom-text {
+    padding-left: 8px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+.text {
+    display: flex;
+    font-weight: 400;
+    text-align: left;
+}
+.radio-button {
+    margin-right: 10px;
+}
+.sign-up-button-container {
+    width: 401px;
+    height: 56px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+}
+.sign-up-button-green {
+    height: 36px;
+    background-color: #00a400;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 32px;
+    font-family: Arial;
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-button:focus .create-button-active {
+    opacity: 1;
+    z-index: 300;
+    pointer-events: auto;
+}
+@media (max-width: 1085px) {
+    .create-button:focus .create-button-active {
+        pointer-events: none;
+    }
+}
+.create-button:focus .grey-tint {
+    background-color: white;
+    width: 1280px;
+    height: 100vh;
+    height: 1005px;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 100;
+}
